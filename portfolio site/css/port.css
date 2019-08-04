@@ -1,0 +1,6 @@
+#wrapper{
+  background-image: url(test.jpg);
+  height: 1440px;
+  width: 800px;
+  background-color: red;
+}
