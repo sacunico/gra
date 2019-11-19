@@ -1,0 +1,40 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    color:lightslategrey;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+li{
+    list-style-type: none;
+}
+.list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.product {
+  flex: 1;
+  position: relative;
+}
+.product after {
+  content: '';
+  position: absolute;
+  top: 2.4rem;
+  width: 100%;
+  z-index: 0;
+}
+.product h4 {
+  background: #fff;
+  display: inline-block;
+  padding-right: .5rem;
+  position: relative;
+  z-index: 1;
+}
+.prices {
+  display: flex;
+}
+.price {
+  padding: 0 .5rem;
+}
