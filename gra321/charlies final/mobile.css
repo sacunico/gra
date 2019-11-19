@@ -1,0 +1,67 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: 'menlo', sans-serif;
+    background-color: #F4EFDF;
+}
+
+.milk{
+    text-indent: 400px;
+    text-align: center;
+    color: #104253;
+    height: 600px;
+    background-image: url('img/halfmilk.png');
+    background-size: contain;
+    background-position: center left;
+    background-repeat: no-repeat;
+    
+}
+
+.hotdrink{
+    text-indent: 600px;
+    color: white;
+    height: 800px;
+    background-color: #E66453;
+    background-image: url('img/halfhot.png');
+    background-size: contain;
+    background-position: center left;
+    background-repeat: no-repeat;
+    margin-bottom: -18.9px;
+    text-align:left;
+    
+
+}
+
+.cold{
+    text-indent: 600px;
+    color: white;
+    height: 800px;
+    background-color:#104253;
+    background-image: url('img/halfcold.png');
+    background-size: contain;
+    background-position: center left;
+    background-repeat: no-repeat;
+    margin-bottom: -18.9px;
+}
+
+h3{
+    font-size: 200%;
+    margin-top: -8px;
+}
+
+
+.food{
+   text-align: justify left;
+   text-indent: 180px; 
+   color: white;
+   background-color: #CEC238;
+}
+
+li{
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 300%;
+  font-color: black;
+}
